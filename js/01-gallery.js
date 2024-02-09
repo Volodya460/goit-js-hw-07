@@ -5,7 +5,7 @@ import { galleryItems } from "./gallery-items.js";
 
 const gallaryBox = document.querySelector(".gallery");
 const gallery = creatGallary(galleryItems);
-// console.log(creatGallary(galleryItems));
+console.log(creatGallary(galleryItems));
 
 gallaryBox.innerHTML = gallery;
 
